@@ -3,12 +3,12 @@ import { CompanyLayout } from "../../../components/company/layout";
 export default function CompanyMyPage() {
   return (
     <CompanyLayout>
-      <article className="text-xs py-8 px-4 md:w-3/4">
+      <article className="text-xs py-8 px-4 max-w-full">
         <section>
-          <h1 className=" text-lg font-semibold text-gray-600">マイページ</h1>
+          <h1 className=" text-base font-semibold text-gray-600">マイページ</h1>
           <hr className=" border-gray-500 mt-2" />
 
-          <div className=" md:w-1/2 mt-8">
+          <div className=" mt-8">
             <h2 className=" text-gray-600">基本情報</h2>
             <div className="w-full mt-4">
               <p className="py-4 px-4 text-left border mt-2">
@@ -20,7 +20,7 @@ export default function CompanyMyPage() {
               <p className="py-4 px-4 text-left border mt-2"> 03-1234-5678</p>
             </div>
           </div>
-          <div className=" md:w-1/2 mt-12">
+          <div className=" mt-12">
             <h2 className=" text-gray-600">プラン</h2>
             <div className="w-full mt-4">
               <div className="py-4 px-4 text-left border mt-2">
@@ -44,7 +44,7 @@ export default function CompanyMyPage() {
               <div></div>
             </div>
           </div>
-          <div className=" md:w-1/2 mt-12">
+          <div className="mt-12">
             <h2 className=" text-gray-600">お支払い方法</h2>
             <div className="w-full mt-4">
               <div className="py-4 px-4 text-left border mt-2">

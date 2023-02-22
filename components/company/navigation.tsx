@@ -31,12 +31,12 @@ export const CompanyNavgation = () => {
       icon: EnvelopeIcon,
       current: false,
     },
-    {
-      name: "お気に入り",
-      href: "/company/search/list",
-      icon: StarIcon,
-      current: false,
-    },
+    // {
+    //   name: "お気に入り",
+    //   href: "/company/search/list",
+    //   icon: StarIcon,
+    //   current: false,
+    // },
     {
       name: "物件登録",
       href: "/company/property/list",
@@ -184,7 +184,7 @@ export const CompanyNavgation = () => {
                           </p>
                           <Link
                             className=" bg-white border rounded-full text-xs font-medium py-1 px-4 "
-                            href="/user/myPage/myPage"
+                            href="/company/myPage/myPage"
                           >
                             編集
                           </Link>
@@ -271,7 +271,7 @@ export const CompanyNavgation = () => {
                       </p>
                       <Link
                         className=" bg-white border rounded-full text-xs font-medium py-1 px-4 "
-                        href="/user/myPage/myPage"
+                        href="/company/myPage/myPage"
                       >
                         編集
                       </Link>

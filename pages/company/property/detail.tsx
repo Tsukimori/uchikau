@@ -3,16 +3,16 @@ import { CompanyLayout } from "../../../components/company/layout";
 export default function PropertyDetail() {
   return (
     <CompanyLayout>
-      <article className="text-xs py-8 px-4 md:w-3/4 ">
+      <article className="text-xs py-8 px-4">
         <section>
-          <h1 className=" text-lg font-semibold text-gray-600">登録物件</h1>
+          <h1 className=" text-base font-semibold text-gray-600">登録物件</h1>
           <hr className=" border-gray-500 mt-2" />
         </section>
 
         <section className=" text-center">
           <form action="" method="post">
             <div className=" text-right">
-              <button className=" bg-sky-500 text-white py-4 px-8 mt-4 rounded-3xl">
+              <button className=" bg-sky-500 text-white py-2 px-6 mt-4 rounded-3xl">
                 修正する
               </button>
             </div>

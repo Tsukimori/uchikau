@@ -42,7 +42,7 @@ export default function MessageList() {
             {message.map((item) => {
               return (
                 <div key={item.titel} className=" flex gap-2 p-4 border-b mt-4">
-                  <div className=" bg-gray-50 text-center  px-2 py-4 w-28 ">
+                  <div className=" grid items-center bg-gray-50 text-center  px-2 py-4 w-28 ">
                     <h2 className=" ">マッチ度</h2>
                     <p className=" text-red-600 text-base">90%</p>
                   </div>

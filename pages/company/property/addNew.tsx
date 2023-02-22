@@ -1,11 +1,12 @@
+
 import { CompanyLayout } from "../../../components/company/layout";
 
 export default function PropertyAddNew() {
   return (
     <CompanyLayout title="新規会員登録画面 | ウチカウ">
-      <article className="text-xs py-8 px-4 md:w-3/4 ">
+      <article className="text-xs py-8 px-4 ">
         <section>
-          <h1 className=" text-lg font-semibold text-gray-600">物件登録</h1>
+          <h1 className=" text-base font-semibold text-gray-600">物件登録</h1>
           <hr className=" border-gray-500 mt-2" />
         </section>
 
@@ -29,7 +30,7 @@ export default function PropertyAddNew() {
 
             <div className=" w-full text-center border-b mt-8">
               <p className="text-sm bg-gray-100  py-4 px-8">
-                価格　
+                価格
                 <span className=" bg-red-600 text-white text-xs py-1 px-4 ml-4 rounded-full">
                   必須
                 </span>
@@ -45,7 +46,7 @@ export default function PropertyAddNew() {
                   <option value="">2,000万円</option>
                   <option value="">3,000万円</option>
                 </select>
-                <p className=" my-4"> 〜　</p>
+                <p className=" my-4"> 〜</p>
                 <select
                   className=" border border-gray-500 py-4 px-8"
                   name="date"
@@ -207,9 +208,10 @@ export default function PropertyAddNew() {
               </div>
             </div>
 
-            <button className=" bg-sky-500 text-white py-4 px-12 mt-8 rounded-3xl">
-              登録する
-            </button>
+            <div className="mt-4">
+              <button className=" bg-sky-500 text-white py-2 px-6 rounded-full">登録する</button>
+
+           </div>
           </form>
         </section>
       </article>

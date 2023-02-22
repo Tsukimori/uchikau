@@ -1,6 +1,7 @@
 import { CompanyLayout } from "../../components/company/layout";
 import Link from "next/link";
 
+
 export default function CompaneyHome() {
   const message = [
     {
@@ -102,10 +103,9 @@ export default function CompaneyHome() {
                     <dd>{item.date}</dd>
                   </dl>
 
-                  <div className=" text-right">
-                    <button className=" bg-sky-500 text-white rounded-full py-2 px-5 mt-4">
-                      <Link href="/company/search/detail">詳細確認</Link>
-                    </button>
+                  <div className=" text-right mt-4 pt-2">
+                    <Link href='/company/search/detail' className=" bg-sky-500 text-white py-2 px-6 rounded-full">詳細確認</Link>
+
                   </div>
                 </div>
               </div>

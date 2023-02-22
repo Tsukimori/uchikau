@@ -63,6 +63,13 @@ export const Auth = () => {
                   </span>
                 </div>
               </div>
+              <div className="flex items-center justify-between">
+                <div className="text-sm">
+                  <span className="font-medium text-gray-500 hover:text-sky-400 cursor-pointer">
+                    パスワードを忘れた方はこちら
+                  </span>
+                </div>
+              </div>
 
               <div>
                 <Link href="/user/home">

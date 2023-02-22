@@ -54,7 +54,7 @@ export const Layout = ({
                 <li>instagram</li>
                 <li>twitter</li>
                 <li>YouTube</li>
-                <li>TikTOk</li>
+                <li>TikTok</li>
               </ul>
             </section>
             <section>

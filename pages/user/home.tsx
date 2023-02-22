@@ -1,4 +1,4 @@
-import { Layout } from "../../components/layout";
+import { Layout } from "../../components/user/layout";
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowDownCircleIcon, StarIcon } from "@heroicons/react/24/outline";
