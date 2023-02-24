@@ -1,7 +1,7 @@
-import Cookie from "universal-cookie";
+
 import Link from "next/link";
 
-const cookie = new Cookie();
+
 
 export const Auth = () => {
   return (
