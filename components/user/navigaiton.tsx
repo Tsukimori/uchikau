@@ -40,43 +40,43 @@ export const Navgation = () => {
       icon: LightBulbIcon,
       current: false,
     },
-    {
-      name: "お気に入り",
-      href: "/user/offerList",
-      icon: StarIcon,
-      current: false,
-    },
+    // {
+    //   name: "お気に入り",
+    //   href: "/user/offerList",
+    //   icon: StarIcon,
+    //   current: false,
+    // },
     {
       name: "条件登録",
       href: "/user/desired/list",
       icon: PlusIcon,
       current: false,
     },
-    {
-      name: "ローンシミュレーション",
-      href: "/comingSoon",
-      icon: CurrencyYenIcon,
-      current: false,
-    },
+    // {
+    //   name: "ローンシミュレーション",
+    //   href: "/comingSoon",
+    //   icon: CurrencyYenIcon,
+    //   current: false,
+    // },
 
-    {
-      name: "コラム一覧",
-      href: "/comingSoon",
-      icon: PencilSquareIcon,
-      current: false,
-    },
-    {
-      name: "サポート",
-      href: "/comingSoon",
-      icon: ChatBubbleBottomCenterTextIcon,
-      current: false,
-    },
-    {
-      name: "設定",
-      href: "/user/setting/setting",
-      icon: Cog6ToothIcon,
-      current: false,
-    },
+    // {
+    //   name: "コラム一覧",
+    //   href: "/comingSoon",
+    //   icon: PencilSquareIcon,
+    //   current: false,
+    // },
+    // {
+    //   name: "サポート",
+    //   href: "/comingSoon",
+    //   icon: ChatBubbleBottomCenterTextIcon,
+    //   current: false,
+    // },
+    // {
+    //   name: "設定",
+    //   href: "/user/setting/setting",
+    //   icon: Cog6ToothIcon,
+    //   current: false,
+    // },
   ];
 
   const [sidebarOpen, setSidebarOpen] = useState(false);

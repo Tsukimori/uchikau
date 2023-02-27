@@ -31,24 +31,19 @@ export const CompanyNavgation = () => {
       icon: EnvelopeIcon,
       current: false,
     },
-    // {
-    //   name: "お気に入り",
-    //   href: "/company/search/list",
-    //   icon: StarIcon,
-    //   current: false,
-    // },
+
     {
       name: "物件登録",
       href: "/company/property/list",
       icon: PlusIcon,
       current: false,
     },
-    {
-      name: "設定",
-      href: "/company/myPage",
-      icon: Cog6ToothIcon,
-      current: false,
-    },
+    // {
+    //   name: "設定",
+    //   href: "/company/myPage",
+    //   icon: Cog6ToothIcon,
+    //   current: false,
+    // },
   ];
 
   const [sidebarOpen, setSidebarOpen] = useState(false);
